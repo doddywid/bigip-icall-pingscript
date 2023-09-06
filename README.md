@@ -5,6 +5,18 @@ Pingscript do the following
   - check status of an interface
 - depending on both results above, either do enable/disable specific interface
 
+<br>
+To setup pingscript:
+
+1. Copy content of pingscript.sh to /config/pingscript.sh
+2. Enable script execution:
+
+         #chmmod +x /config/pingscript.sh
+
+4. Load pingscript & pingscript_handler to config
+ 
+         (tmos)# load sys config from-terminal merge
+
 
 <br>
 Structure of an icall:
