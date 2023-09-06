@@ -1,0 +1,8 @@
+sys icall script pingscript {
+    app-service none
+    definition {
+        exec /config/pingscript.sh
+    }
+    description none
+    events none
+}
