@@ -1,0 +1,4 @@
+sys icall handler periodic pingscript_handler {
+    interval 30
+    script pingscript
+}
