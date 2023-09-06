@@ -8,7 +8,7 @@ Pingscript do the following
 <br>
 To setup pingscript:
 
-1. Copy content of pingscript.sh to /config/pingscript.sh
+1. Copy content of pingscript.sh to /config/pingscript.sh. Modify ping target and interface in this file accordingly
 2. Enable script execution:
 
          #chmmod +x /config/pingscript.sh
