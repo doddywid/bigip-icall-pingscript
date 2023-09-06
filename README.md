@@ -12,11 +12,10 @@ To setup pingscript:
 2. Enable script execution:
 
          #chmmod +x /config/pingscript.sh
+3. Load pingscript & pingscript_handler to config
 
-4. Load pingscript & pingscript_handler to config
- 
-         (tmos)# load sys config from-terminal merge
-
+        (tmos)# load sys config from-terminal merge
+   Adjust pingscript execution interval in pingscript_handler if necessary.
 
 <br>
 Structure of an icall:
