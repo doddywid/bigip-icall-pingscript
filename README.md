@@ -5,10 +5,8 @@ Pingscript do the following
   - check status of an interface
 - depending on both results above, either do enable/disable specific interface
 
-Structure of an icall:
 
-iCall handler (periodic in this case)
-    |
-     ---> iCall script 
-             |
-              ---> the actual shell script in /config folder
+<br>
+Structure of an icall:
+	
+ 	iCall handler (periodic in this case) --> iCall script --> the actual shell script in /config folder
